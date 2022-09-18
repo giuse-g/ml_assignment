@@ -1,0 +1,93 @@
+Variable name,Type,Meaning
+target,binary,Target variable to predict. =1 if individual is poor
+v2a1,continuous, Monthly rent payment
+hacdor,binary, =1 Overcrowding by bedrooms
+rooms,count,  number of all rooms in the house
+hacapo,binary, =1 Overcrowding by rooms
+v14a,binary, =1 has bathroom in the household
+refrig,binary, =1 if the household has refrigerator
+v18q1,count, number of tablets household owns
+r4h1,count, #Males younger than 12 years of age in the household
+r4h2,count, #Males 12 years of age and older in the household
+r4m1,count, #Females younger than 12 years of age in the household
+r4m2,count, #Females 12 years of age and older in the household
+escolari,count, years of schooling
+pared1,binary, =1 if predominant material on the outside wall is block or brick
+pared2,binary, =1 if predominant material on the outside wall is waste material
+pared3,binary, =1 if predominant material on the outside wall is prefabricated or cement
+pared4,binary, =1 if predominant material on the outside wall is waste material
+pared5,binary, =1 if predominant material on the outside wall is wood
+pared6,binary, =1 if predominant material on the outside wall is zink
+pared7,binary, =1 if predominant material on the outside wall is natural fibers
+piso1,binary," =1 if predominant material on the floor is mosaic,  ceramic,  terrazo"
+piso2,binary, =1 if predominant material on the floor is cement
+piso3,binary, =1 if predominant material on the floor is wood
+techo1,binary, =1 if predominant material on the roof is metal foil or zink
+techo2,binary," =1 if predominant material on the roof is fiber cement,  mezzanine"
+cielorazo,binary, =1 if the house has ceiling
+water,binary, =1 if water provision inside the dwelling
+electro1,binary," =1 electricity from cnfl,  ice,  esph/jasec"
+electro2,binary, =1 electricity from private plant
+electro3,binary, =1 no electricity in the dwelling
+sanitario1,binary, =1 no toilet in the dwelling
+sanitario2,binary, =1 toilet connected to sewer or cesspool
+sanitario3,binary, =1 toilet connected to  septic tank
+energcocinar1,binary, =1 no main source of energy used for cooking (no kitchen)
+energcocinar2,binary, =1 main source of energy used for cooking electricity
+energcocinar3,binary, =1 main source of energy used for cooking gas
+elimbasu1,binary, =1 if rubbish disposal mainly by tanker truck
+elimbasu2,binary, =1 if rubbish disposal mainly by botan hollow or buried
+elimbasu3,binary, =1 if rubbish disposal mainly by burning
+epared1,binary, =1 if walls are bad
+epared2,binary, =1 if walls are regular (the dropped category is ‘if walls are good’)
+etecho1,binary, =1 if roof are bad
+etecho2,binary, =1 if roof are regular (the dropped category is ‘if roof is good’)
+eviv1,binary, =1 if floor are bad
+eviv2,binary, =1 if floor are regular (the dropped category is ‘if floor is good’)
+dis,binary, =1 if disable person
+female,binary, =1 if female
+estadocivil1,binary, =1 if less than 10 years old
+estadocivil2,binary, =1 if free or coupled union
+estadocivil3,binary, =1 if married
+estadocivil4,binary, =1 if divorced
+estadocivil5,binary, =1 if separated
+estadocivil6,binary, =1 if widow/er (the dropped category is ‘if single’)
+parentesco1,binary, =1 if household head
+parentesco2,binary, =1 if spouse/partner
+parentesco3,binary, =1 if son/daughter
+parentesco4,binary, =1 if stepson/daughter
+parentesco5,binary, =1 if son/daughter in law
+parentesco6,binary, =1 if grandson/daughter
+parentesco7,binary, =1 if mother/father
+parentesco8,binary, =1 if father/mother in law
+parentesco9,binary, =1 if brother/sister
+parentesco10,binary, =1 if brother/sister in law
+parentesco11,binary, =1 if other family member (the dropped category is ‘if other non family member’)
+hogar_nin,count, Number of children 0 to 19 in household
+hogar_adul,count, Number of adults in household
+hogar_mayor,count, # of individuals 65+ in the household
+meaneduc,continuous,average years of education for adults (18+)
+instlevel1,binary, =1 no level of education
+instlevel2,binary, =1 incomplete primary
+instlevel3,binary, =1 complete primary
+instlevel4,binary, =1 incomplete academic secondary level
+instlevel5,binary, =1 complete academic secondary level
+instlevel6,binary, =1 incomplete technical secondary level
+instlevel7,binary, =1 complete technical secondary level
+instlevel8,binary, =1 undergraduate and higher education (dropped category is ‘postgraduate higher education’)
+bedrooms,count, number of bedrooms
+overcrowding,count, # persons per room
+tipovivi1,binary, =1 own and fully paid house
+tipovivi2,binary," =1 own,  paying in installments"
+tipovivi3,binary, =1 rented
+tipovivi4,binary, =1 precarious
+computer,binary, =1 if the household has notebook or desktop computer
+television,binary, =1 if the household has TV
+qmobilephone,count, # of mobile phones
+lugar1,binary, =1 region Central
+lugar2,binary, =1 region Chorotega
+lugar3,binary, =1 region Pacifico central
+lugar4,binary, =1 region Brunca
+lugar5,binary, =1 region Huetar Atlantica (dropped category is ‘region Huetar Norte’)
+rural,binary, =1 if household is in rural area
+age,continuous, Age in years
